@@ -1,0 +1,464 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>COFFEE SHOP</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="/CSS/style.css">
+</head>
+
+<body>
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="/IMG/logo.png" alt="logo-cafe">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">Sobre Nós</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#menu">Cardápio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#local">Local</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+          <button class="btn btn-primary" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <!--Carrosel de imagem-->
+
+    <header id="carousel-coffee" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carousel-coffee" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carousel-coffee" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carousel-coffee" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/IMG/graos-de-cafe.jpg" class="d-block w-100" alt="Graos de Café">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>A melhor experiência gastronômica de café</h5>
+            <p>Você vai experenciar os melhores cafés do Brasil e do mundo.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/IMG/pexels-engin-akyurt-2299028.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>O melhor café expresso do Brasil</h5>
+            <p>Feito com grãos selecionados.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/IMG/pexels-photo-907142.webp" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Um bom café vem acompanhado de um belo bolo</h5>
+            <p>Bolo, pão de queijo e muito mais.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel-coffee" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel-coffee" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </header>
+
+    <!--Citação de Texto-->
+
+    <figure>
+      <blockquote class="blockquote">
+        <h3 class="fw-light text-center fst-italic mt-5">
+          "O amor é um café às oito da manhã numa segunda."
+        </h3>
+      </blockquote>
+      <figcaption class="blockquote-footer text-center">
+        <cite title="Source Title">Coffee Shop</cite>
+      </figcaption>
+    </figure>
+
+    <!--Cards-->
+
+    <section id="about" class="container text-center">
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="/IMG/café-preto.jpg" class="img-fluid rounded-start" alt="fatia de bolo e uma xicara de café">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Café é vida</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quo cumque,
+                    commodi vel veniam repellendus. Soluta laborum libero rerum harum voluptates, laboriosam asperiores
+                    animi omnis!</p>
+                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="/IMG/café-saudável2.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Saudável</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quo cumque,
+                    commodi vel veniam repellendus. Soluta laborum libero rerum harum voluptates, laboriosam asperiores
+                    animi omnis!</p>
+                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Navbar Tabs-->
+
+    <section id="menu" class="container mt-5 ">
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="expresso" data-bs-toggle="tab" data-bs-target="#expresso-pane"
+            type="button" role="tab" aria-controls="expresso-pane" aria-selected="true">Expressos</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="cappuccinos-tab" data-bs-toggle="tab" data-bs-target="#cappuccinos-tab-pane"
+            type="button" role="tab" aria-controls="cappuccinos-tab-pane" aria-selected="false">Cappuccinos</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="Iced-coffee-tab" data-bs-toggle="tab" data-bs-target="#Iced-coffee-tab-pane"
+            type="button" role="tab" aria-controls="Iced-coffee-tab-pane" aria-selected="false">Gelato</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="special-coffee-tab" data-bs-toggle="tab"
+            data-bs-target="#special-coffee-tab-pane" type="button" role="tab" aria-controls="special-coffee-tab-pane"
+            aria-selected="false">Especiais</button>
+        </li>
+      <!--End Navbar tabs-->
+      </ul>
+      <!--Expresso-->
+      <div class="tab-content" id="coffeeTabContent">
+        <div class="tab-pane fade show active" id="expresso-pane" role="tabpanel" aria-labelledby="expresso"
+          tabindex="0">
+          <!--Cards Expresso-->
+          <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://images.pexels.com/photos/685527/pexels-photo-685527.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="xicara branca com café">
+                <div class="card-body">
+                  <h5 class="card-title">Café Expresso</h5>
+                  <p class="card-text">R$ 12,00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://images.pexels.com/photos/1660916/pexels-photo-1660916.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="xicara branca com café">
+                <div class="card-body">
+                  <h5 class="card-title">Café Expresso</h5>
+                  <p class="card-text">R$ 15,50</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://images.pexels.com/photos/997656/pexels-photo-997656.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="xicara branca com café">
+                <div class="card-body">
+                  <h5 class="card-title">Café Expresso</h5>
+                  <p class="card-text">R$ 15,00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://images.pexels.com/photos/162947/coffee-glass-beverage-coffee-mug-162947.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="xicara branca com café">
+                <div class="card-body">
+                  <h5 class="card-title">Café Expresso</h5>
+                  <p class="card-text">R$ 13,00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://images.pexels.com/photos/585753/pexels-photo-585753.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="xicara branca com café">
+                <div class="card-body">
+                  <h5 class="card-title">Café Expresso</h5>
+                  <p class="card-text">R$ 14,50</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://images.pexels.com/photos/2456429/pexels-photo-2456429.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="xicara branca com café">
+                <div class="card-body">
+                  <h5 class="card-title">Café Expresso</h5>
+                  <p class="card-text">R$ 12,00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--End cards expressos-->
+        </div>
+        <!--Cappuccino-->
+        <div class="tab-pane fade" id="cappuccinos-tab-pane" role="tabpanel" aria-labelledby="cappuccinos-tab"
+          tabindex="0">
+          <!--Cards Cappuccino-->
+          <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://images.pexels.com/photos/162947/coffee-glass-beverage-coffee-mug-162947.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="Cappuccino">
+                <div class="card-body">
+                  <h5 class="card-title">Cappuccino</h5>
+                  <p class="card-text">R$ 12,00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://images.pexels.com/photos/460541/pexels-photo-460541.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="Cappuccino">
+                <div class="card-body">
+                  <h5 class="card-title">Cappuccino</h5>
+                  <p class="card-text">R$ 12,00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://images.pexels.com/photos/433124/pexels-photo-433124.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="Cappuccino">
+                <div class="card-body">
+                  <h5 class="card-title">Cappuccino</h5>
+                  <p class="card-text">R$ 12,00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://images.pexels.com/photos/2013798/pexels-photo-2013798.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="Cappuccino">
+                <div class="card-body">
+                  <h5 class="card-title">Cappuccino</h5>
+                  <p class="card-text">R$ 12,00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://images.pexels.com/photos/2096840/pexels-photo-2096840.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="Cappuccino">
+                <div class="card-body">
+                  <h5 class="card-title">Cappuccino</h5>
+                  <p class="card-text">R$ 12,00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://images.pexels.com/photos/2318033/pexels-photo-2318033.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="Cappuccino">
+                <div class="card-body">
+                  <h5 class="card-title">Cappuccino</h5>
+                  <p class="card-text">R$ 12,00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--End Cards Cappucciono--> <!--Iced Coffee-->
+        <div class="tab-pane fade" id="Iced-coffee-tab-pane" role="tabpanel" aria-labelledby="Iced-coffee-tab"
+          tabindex="0">
+          <!--Cards Iced-coffee-->
+          <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://images.pexels.com/photos/1193335/pexels-photo-1193335.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="Café gelado">
+                <div class="card-body">
+                  <h5 class="card-title">Iced Coffee</h5>
+                  <p class="card-text">R$ 12,00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://images.pexels.com/photos/4921567/pexels-photo-4921567.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="Café gelado">
+                <div class="card-body">
+                  <h5 class="card-title">Iced Coffee</h5>
+                  <p class="card-text">R$ 12,00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://images.pexels.com/photos/15756422/pexels-photo-15756422.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="Café gelado">
+                <div class="card-body">
+                  <h5 class="card-title">Iced Coffee</h5>
+                  <p class="card-text">R$ 12,00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://images.pexels.com/photos/7488730/pexels-photo-7488730.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="Café gelado">
+                <div class="card-body">
+                  <h5 class="card-title">Iced Coffee</h5>
+                  <p class="card-text">R$ 12,00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://images.pexels.com/photos/12872902/pexels-photo-12872902.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="Café gelado">
+                <div class="card-body">
+                  <h5 class="card-title">Iced Coffee</h5>
+                  <p class="card-text">R$ 12,00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://images.pexels.com/photos/4728009/pexels-photo-4728009.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="Café gelado">
+                <div class="card-body">
+                  <h5 class="card-title">Iced Coffee</h5>
+                  <p class="card-text">R$ 12,00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--End Cards Iced Coffee-->
+        </div>
+        <!--Special Coffee-->
+        <div class="tab-pane fade" id="special-coffee-tab-pane" role="tabpanel" aria-labelledby="special-coffee-tab"
+          tabindex="0">
+          <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://images.pexels.com/photos/963755/pexels-photo-963755.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="Especiais">
+                <div class="card-body">
+                  <h5 class="card-title">Especiais</h5>
+                  <p class="card-text">R$ 12,00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://images.pexels.com/photos/4552115/pexels-photo-4552115.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="Especiais">
+                <div class="card-body">
+                  <h5 class="card-title">Especiais</h5>
+                  <p class="card-text">R$ 12,00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://images.pexels.com/photos/2422700/pexels-photo-2422700.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="Especiais">
+                <div class="card-body">
+                  <h5 class="card-title">Especiais</h5>
+                  <p class="card-text">R$ 12,00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://images.pexels.com/photos/3646862/pexels-photo-3646862.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="Especiais">
+                <div class="card-body">
+                  <h5 class="card-title">Especiais</h5>
+                  <p class="card-text">R$ 12,00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://images.pexels.com/photos/9928207/pexels-photo-9928207.jpeg?auto=compress&cs=tinysrgb&w=600" class="card-img-top" alt="Especiais">
+                <div class="card-body">
+                  <h5 class="card-title">Especiais</h5>
+                  <p class="card-text">R$ 12,00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img src="https://images.pexels.com/photos/1475007/pexels-photo-1475007.jpeg?auto=compress&cs=tinysrgb&w=600  " class="card-img-top" alt="Especiais">
+                <div class="card-body">
+                  <h5 class="card-title">Especiais</h5>
+                  <p class="card-text">R$ 12,00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!--Local-->
+    <section id="local" class="container text-center mt-5 mb-5">
+      <!-- Button modal -->
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#localmodal">
+        Quero conhecer o Coffee Shop
+      </button>
+      <!-- Modal -->
+      <div class="modal fade" id="localmodal" tabindex="-1" aria-labelledby="localmodalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="localmodalLabel">Estamos te esperando!</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>Rua Exemplo 123, Exemplo CEP 00000-000</p>
+              <iframe style="width: 100%;"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.6792848044242!2d-46.81062312692101!3d-23.65165401790266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce535d8a0c8ba7%3A0x522fb25411c2be73!2sR.%20Moema%20-%20Jardim%20Santa%20Tereza%2C%20Embu%20das%20Artes%20-%20SP%2C%2006813-070!5e0!3m2!1spt-BR!2sbr!4v1682298079853!5m2!1spt-BR!2sbr"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
+  <!--Footer-->
+  <footer class="text-center bg-dark p-5 mt-5 text-light">
+    <img width="80" src="/IMG/logo.png" alt="Logo tipo coffee shop">
+    <p class="mt-2 mb-0 fw-bold">
+      Coffee Shop | Transformando sua experiência com café
+    </p>
+    <p> (11)98898-8989</p>
+  </footer>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
